@@ -1,0 +1,88 @@
+<svg width="100%" height="100%" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <style>
+    .line {
+      stroke: #3eeaed;
+      stroke-width: 2.5;
+      stroke-opacity: 1;
+      animation: pulseLine 6s ease-in-out infinite alternate;
+    }
+
+    .dot {
+      fill: #3eeaed;
+      opacity: 1;
+      animation: pulseDot 2s ease-in-out infinite;
+    }
+
+    @keyframes pulseLine {
+      0% { stroke-opacity: 0.8; }
+      100% { stroke-opacity: 1; }
+    }
+
+    @keyframes pulseDot {
+      0%, 100% { r: 6; opacity: 0.95; }
+      50% { r: 9; opacity: 1; }
+    }
+  </style>
+
+  <!-- Existing Lines -->
+  <line x1="400" y1="300" x2="1200" y2="600" class="line" />
+  <line x1="1200" y1="600" x2="1900" y2="400" class="line" />
+  <line x1="1900" y1="400" x2="2700" y2="700" class="line" />
+  <line x1="2700" y1="700" x2="3500" y2="300" class="line" />
+  <line x1="1200" y1="600" x2="1600" y2="1200" class="line" />
+  <line x1="1600" y1="1200" x2="2200" y2="1000" class="line" />
+  <line x1="2200" y1="1000" x2="2700" y2="700" class="line" />
+  <line x1="400" y1="300" x2="800" y2="1100" class="line" />
+  <line x1="800" y1="1100" x2="1600" y2="1200" class="line" />
+  <line x1="3500" y1="300" x2="3600" y2="1200" class="line" />
+  <line x1="3600" y1="1200" x2="2800" y2="1700" class="line" />
+  <line x1="2800" y1="1700" x2="1900" y2="1500" class="line" />
+  <line x1="1900" y1="1500" x2="1100" y2="1900" class="line" />
+  <line x1="1100" y1="1900" x2="400" y2="1800" class="line" />
+  <line x1="800" y1="1100" x2="1100" y2="1900" class="line" />
+  <line x1="1900" y1="1500" x2="2800" y2="1700" class="line" />
+  <line x1="3600" y1="1200" x2="2200" y2="1000" class="line" />
+  <line x1="2200" y1="1000" x2="1100" y2="1900" class="line" />
+  <line x1="1900" y1="400" x2="1900" y2="1500" class="line" />
+  <line x1="2700" y1="700" x2="2800" y2="1700" class="line" />
+  <line x1="1600" y1="1200" x2="1100" y2="1900" class="line" />
+  <line x1="3500" y1="300" x2="2800" y2="1700" class="line" />
+  <line x1="800" y1="1100" x2="1900" y2="1500" class="line" />
+
+  <!-- NEW Additional Lines -->
+  <line x1="400" y1="1800" x2="1800" y2="1000" class="line" />
+  <line x1="1800" y1="1000" x2="3000" y2="800" class="line" />
+  <line x1="3000" y1="800" x2="3200" y2="300" class="line" />
+  <line x1="1800" y1="1000" x2="2300" y2="1700" class="line" />
+  <line x1="2300" y1="1700" x2="3200" y2="1300" class="line" />
+  <line x1="3200" y1="1300" x2="3600" y2="1200" class="line" />
+  <line x1="3200" y1="300" x2="3600" y2="1200" class="line" />
+  <line x1="400" y1="1800" x2="1000" y2="1500" class="line" />
+  <line x1="1000" y1="1500" x2="1600" y2="1200" class="line" />
+  <line x1="2300" y1="1700" x2="1100" y2="1900" class="line" />
+  <line x1="1900" y1="400" x2="3000" y2="800" class="line" />
+  <line x1="400" y1="300" x2="3200" y2="1300" class="line" />
+
+  <!-- Existing Nodes -->
+  <circle cx="400" cy="300" r="5" class="dot" />
+  <circle cx="800" cy="1100" r="5" class="dot" />
+  <circle cx="1100" cy="1900" r="5" class="dot" />
+  <circle cx="1200" cy="600" r="5" class="dot" />
+  <circle cx="1600" cy="1200" r="5" class="dot" />
+  <circle cx="1900" cy="400" r="5" class="dot" />
+  <circle cx="1900" cy="1500" r="5" class="dot" />
+  <circle cx="2200" cy="1000" r="5" class="dot" />
+  <circle cx="2700" cy="700" r="5" class="dot" />
+  <circle cx="2800" cy="1700" r="5" class="dot" />
+  <circle cx="3500" cy="300" r="5" class="dot" />
+  <circle cx="3600" cy="1200" r="5" class="dot" />
+  <circle cx="400" cy="1800" r="5" class="dot" />
+
+  <!-- NEW Additional Nodes -->
+  <circle cx="1800" cy="1000" r="5" class="dot" />
+  <circle cx="3000" cy="800" r="5" class="dot" />
+  <circle cx="3200" cy="1300" r="5" class="dot" />
+  <circle cx="3200" cy="300" r="5" class="dot" />
+  <circle cx="2300" cy="1700" r="5" class="dot" />
+  <circle cx="1000" cy="1500" r="5" class="dot" />
+</svg>
