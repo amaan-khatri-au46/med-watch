@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Manrope;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Manrope;
+}
+
+.custom-bg {
+  background: linear-gradient(115.33deg, #083d6a 1.18%, #1078d0 52.05%);
+}
+
+.gradient-text {
+  background: linear-gradient(115.33deg, #083d6a 1.18%, #1078d0 52.05%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.custom-text {
+  font-family: Sora !important;
+}
+
+.text-font {
+  font-family: Manrope !important;
+}
+
+.bg-accordion {
+  background: linear-gradient(95.16deg, #fbfdff 0.79%, #e9f6ff 98.08%);
+}
+
+.slick-slide {
+  /* margin-right: 5px; Gap between slides */
+  padding: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 14px !important; /* Increase the dot size */
+  color: #0b5594 !important;
+}
+
+.footer-background {
+  background: linear-gradient(95.16deg, #fbfdff 0.79%, #e9f9ff 98.08%);
+}
+
+.icon-color {
+  background: linear-gradient(115.33deg, #083d6a 1.18%, #1078d0 52.05%);
+}
+
+.stop-transition {
+  transition: stop-color 0.5s ease-in-out;
+}
